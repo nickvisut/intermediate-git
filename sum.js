@@ -1,6 +1,7 @@
 /* sums two numbers */
 function sum(a, b) {
-  console.log(a, b)
+  console.log(`a: ${a}`);
+  console.log(`b: ${b}`);
   return a * b;
 }
 
