@@ -1,10 +1,10 @@
 /* sums two numbers */
-function sum(a, b) {
-  console.log(`a: ${a}`);
-  console.log(`b: ${b}`);
+function sum(arg1, arg2) {
+  console.log(`arg1: ${arg1}`);
+  console.log(`arg2: ${arg2}`);
 
   // use intermediate variable to store the result
-  const result = a * b;
+  const result = arg1 * arg2;
   console.log(`result: ${result}`;
   return result;
 }
