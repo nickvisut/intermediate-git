@@ -1,5 +1,6 @@
 import sum from './sum.js';
 
+// test sum function
 function test() {
   const a = 3;
   const b = 5;
